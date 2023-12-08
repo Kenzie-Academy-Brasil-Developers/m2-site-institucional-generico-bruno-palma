@@ -11,6 +11,9 @@ body {
   padding: 20px 150px;
   background-color: var(--gray-1);
   border-bottom: 2px solid var(--brand-1);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .header__info {
@@ -135,6 +138,8 @@ body {
   align-items: start;
   gap: 33px;
   padding-right: 40px;
+  position: sticky;
+  top: 150px;
 }
 
 .left-side__title {
@@ -218,6 +223,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 35px;
+  position: sticky;
+  top: 150px;
 }
 
 .right-side__title {
