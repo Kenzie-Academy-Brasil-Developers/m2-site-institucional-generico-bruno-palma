@@ -3,11 +3,11 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--gray-2);
-  width: 1256px;
+  width: 100%;
 }
 
 .header__container {
-  width: 1256px;
+  width: 100%;
   padding: 20px 150px;
   background-color: var(--gray-1);
   border-bottom: 2px solid var(--brand-1);
@@ -38,11 +38,11 @@ body {
 }
 
 .main__container {
-  width: 1256px;
+  width: 100%;
 }
 
 .banner__container {
-  width: 1256px;
+  width: 100%;
   padding: 130px 0;
 }
 
@@ -90,12 +90,12 @@ body {
 }
 
 .about__container {
-  width: 1256px;
+  width: 100%;
   background-color: var(--gray-1);
 }
 
 .about__info {
-  width: 1256px;
+  width: 100%;
   padding: 82px 150px;
   display: flex;
   align-items: center;
@@ -120,11 +120,11 @@ body {
 }
 
 .faq__container {
-  width: 1256px;
+  width: 100%;
 }
 
 .faq__info {
-  width: 1256px;
+  width: 100%;
   padding: 82px 150px;
   display: flex;
   justify-content: space-between;
@@ -201,11 +201,11 @@ body {
 }
 
 .comment__container {
-  width: 1256px;
+  width: 100%;
 }
 
 .comment__info {
-  width: 1256px;
+  width: 100%;
   padding: 82px 150px;
   display: flex;
   flex-direction: row-reverse;
@@ -284,7 +284,7 @@ body {
 }
 
 .footer__container {
-  width: 1256px;
+  width: 100%;
   background-color: var(--gray-1);
   display: flex;
   justify-content: center;
