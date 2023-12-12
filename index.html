@@ -28,7 +28,7 @@
           industry. Lorem Ipsum has been the industry's standard dummy text
           ever since the 1500s
         </p>
-        <button class="banner__button">Sobre nós</button>
+        <a href="#about"><button class="banner__button">Sobre nós</button></a>
       </div>
     </section>
 
@@ -107,7 +107,7 @@
     </section>
 
     <!-- ====== Section Comments ====== -->
-    <section class="comment__container">
+    <section class="comment__container" id="about">
       <div class="comment__info">
         <!-- RIGHT SIDE -->
         <div class="comment__right-side">
@@ -198,7 +198,20 @@
   </footer>
 
   <!-- ====== Modal ====== -->
-  <dialog></dialog>
+  <dialog class="modal__container">
+    <div class="modal__info">
+      <div class="modal__header">
+        <h3 class="modal__title">Cadastro</h3>
+        <button class="modal__button">X</button>
+      </div>
+      <p class="modal__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry's standard dummy text ever since the 1500s</p>
+      <form class="modal__form">
+        <input type="email" placeholder="Digitar email" name="email" required>
+        <button type="submit">Entrar na lista para próxima turma</button>
+      </form>
+    </div>
+  </dialog>
 </body>
 
 </html>

@@ -290,3 +290,109 @@ body {
   justify-content: center;
   padding: 30px 0;
 }
+
+.modal__container {
+  padding: 0;
+  border: none;
+}
+
+.modal__info {
+  width: 450px;
+  padding: 28px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: justify;
+  gap: 31px;
+  background-color: var(--gray-2);
+  border: 2px solid var(--brand-1);
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.modal__title {
+  font-size: var(--title-3-size);
+  font-weight: var(--font-weight-600);
+  line-height: var(--line-height-160);
+  color: var(--gray-7);
+}
+
+.modal__button {
+  height: 32px;
+  font-size: var(--text-1-size);
+  font-weight: var(--font-weight-600);
+  line-height: var(--line-height-160);
+  color: var(--gray-4);
+  background-color: var(--gray-3);
+  border: none;
+  border-radius: 4px;
+  padding-inline: 12px;
+  cursor: pointer;
+}
+
+.modal__button:hover {
+  background-color: var(--gray-1);
+}
+
+.modal__text {
+  font-size: var(--text-3-size);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-150);
+  color: var(--gray-5);
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+
+.modal__form > input {
+  font-size: var(--text-1-size);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-160);
+  padding: 14px 20px;
+  background-color: var(--gray-1);
+  border: 1px solid var(--gray-1);
+  color: var(--gray-4);
+}
+
+.modal__form > input::placeholder {
+  color: var(--gray-4);
+}
+
+.modal__form > input:valid {
+  background-color: var(--gray-3);
+  border: 1px solid var(--gray-3);
+}
+
+.modal__form > input:focus {
+  background-color: var(--gray-2);
+  border: 1px solid var(--brand-1);
+  outline: none;
+}
+
+.modal__form > button {
+  font-size: var(--text-4-size);
+  font-weight: var(--font-weight-600);
+  line-height: var(--line-height-150);
+  color: var(--gray-7);
+  background-color: var(--brand-1);
+  border: 1px solid var(--brand-1);
+  padding: 14px 20px;
+}
+
+.modal__form > button:hover {
+  border: 1px solid var(--brand-2);
+  background-color: var(--brand-2);
+  cursor: pointer;
+}
+
+::backdrop {
+  background-color: rgba(25, 28, 31, 0.8);
+}
