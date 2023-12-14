@@ -14,13 +14,13 @@
   --gray-6: #edf2ff;
   --gray-7: #f8f9fa;
 
-  --title-1-size: 52px;
-  --title-2-size: 40px;
-  --title-3-size: 32px;
-  --text-1-size: 20px;
-  --text-2-size: 18px;
-  --text-3-size: 16px;
-  --text-4-size: 16px;
+  --title-1-size: clamp(2.5rem, 2.286rem + 1.071vw, 3.25rem);
+  --title-2-size: clamp(2rem, 1.791rem + 0.788vw, 2.5rem);
+  --title-3-size: 2rem;
+  --text-1-size: clamp(1.125rem, 1.073rem + 0.197vw, 1.25rem);
+  --text-2-size: 1.125rem;
+  --text-3-size: 1rem;
+  --text-4-size: 1rem;
 
   --font-weight-600: 600;
   --font-weight-400: 400;
